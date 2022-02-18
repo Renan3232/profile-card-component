@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+ 
+body {
+     font-family:'Kumbh Sans', sans-serif;
+     display: flex;
+     margin: 0;
+     padding: 0;
+     background-color: hsl(185, 75%, 39%);
+     background-image:url(/images/bg-pattern-top.svg) ;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     min-height: 100vh;
+     
+    
+}
+
+
+
+.main-container-flex{
+    height: 50%;
+    width: 70%;
+    background-color:white;
+    border-radius: 10px;
+    max-width: 350px;
+    
+    
+}
+#top-div{
+    border-radius: 10px 10px 0 0;
+    height: 150px;
+    width: 100%;
+    background-image: url(/images/bg-pattern-card.svg) ;
+    
+}
+.card {
+    height: 230px;
+    
+}
+
+img {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    bottom: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/*styling nome, age and city*/
+
+.nome-cidade {
+   
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    color:hsl(227, 10%, 46%);
+   
+    
+}
+.perfil th {
+    color:hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+span {
+ color:hsl(227, 10%, 46%);
+ font-weight: 400;
+}
+
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+/*--styling table*/
+.perfil {
+    text-align: center;
+     
+}
+.data {
+    
+  width: 90%;
+  text-align: center;
+  padding:0px;
+  font-size: 14px;
+  color:  hsl(227, 10%, 46%);
+   
+    
+}
+.data th {
+    padding:0px 30px 5px 30px;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    
+}
+
+/*styliyng attribution*/
+.attribution {
+    position: relative;
+    top: 20px;
+}
+
+
